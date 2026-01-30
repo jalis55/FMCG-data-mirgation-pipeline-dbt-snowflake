@@ -1,0 +1,9 @@
+sources:
+  - name: staging
+    database: fmcg
+    schema: staging  
+    tables:
+      - name: customers
+      - name: products
+      - name: orders
+      - name: gross_price
